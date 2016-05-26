@@ -10,9 +10,9 @@ const Home = () =>
         Lorem Ipsum, plain and simple.
     </Page.Subtitle>
     <Page.Content>
-      <IpsumGenerator/>
+      <IpsumGenerator />
     </Page.Content>
-    <Page.Footer/>
+    <Page.Footer />
   </Page>
 
 export default Home

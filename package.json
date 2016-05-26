@@ -16,7 +16,7 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "better-npm-run": "0.0.8",
-    "better-react-spinkit": "1.1.1",
+    "better-react-spinkit": "1.2.2",
     "can-use-dom": "^0.1.0",
     "clean-webpack-plugin": "^0.1.8",
     "color": "^0.11.1",
@@ -50,12 +50,13 @@
     "scroll-behavior": "^0.7.0",
     "serialize-javascript": "^1.2.0",
     "standard": "^7.0.1",
-    "standard-loader": "^3.0.0",
+    "standard-loader": "^4.0.0",
     "static-site-generator-webpack-plugin": "^2.0.1",
     "style-loader": "^0.13.1",
-    "superagent": "^1.8.3",
+    "superagent": "^2.0.0-alpha.3",
     "webpack": "^1.12.15",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^1.14.1",
+    "why-did-you-update": "0.0.8"
   },
   "scripts": {
     "start": "npm run start-dev",
@@ -70,14 +71,16 @@
       "env": {
         "BABEL_ENV": "development",
         "DEVELOPMENT": true,
-        "DEVTOOLS": true
+        "DEVTOOLS": true,
+        "SEGMENT_KEY": "jSsabKxt159z3vbfS4QRnFI1VYvPfAEU"
       }
     },
     "build-prod": {
       "command": "webpack -p",
       "env": {
         "BABEL_ENV": "production",
-        "NODE_ENV": "production"
+        "NODE_ENV": "production",
+        "SEGMENT_KEY": "jSsabKxt159z3vbfS4QRnFI1VYvPfAEU"
       }
     }
   },

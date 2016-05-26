@@ -4,7 +4,7 @@ import { IndexRoute, Route } from 'react-router'
 
 export default (
   <Route path='/' component={views.App}>
-    <IndexRoute component={views.Home}/>
-    <Route path='*' component={views.Error404}/>
+    <IndexRoute component={views.Home} />
+    <Route path='*' component={views.Error404} />
   </Route>
 )
